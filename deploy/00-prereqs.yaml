@@ -5,7 +5,7 @@ metadata:
   name: nats-operator
   # Change to the name of the namespace where to install NATS Operator.
   # Alternatively, change to "nats-io" to perform a cluster-scoped deployment in supported versions.
-  namespace: default
+  namespace: nats-test
 
 ---
 apiVersion: rbac.authorization.k8s.io/v1
